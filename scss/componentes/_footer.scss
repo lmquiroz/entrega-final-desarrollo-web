@@ -1,0 +1,21 @@
+#logoFooter{
+    height: 50px;
+}
+
+.footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul{
+        list-style: none;
+        display: flex;
+        li{
+            margin: 1rem;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}

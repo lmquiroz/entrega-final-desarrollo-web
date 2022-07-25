@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* variables */
+
+/* componentes */
+@import './componentes/body';
+@import './componentes/header';
+@import './componentes/aside';
+@import './componentes/footer';
+
+/* paginas */
+@import './secciones/indexandbio'

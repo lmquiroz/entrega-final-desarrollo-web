@@ -1,0 +1,37 @@
+#logoPrincipal{
+    max-height: 200px;
+}
+
+#imgBio{
+    height: 400px;
+}
+
+#sinLista{
+    display: none;
+}
+
+
+    .contenedorMain{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 3rem;
+        align-items: center;
+        h1{
+            margin: 2rem;
+        }
+        img{
+            margin: 2rem;
+        }
+
+        p{
+            max-width: 800px;
+            margin: 2rem;
+        }
+    }
+
+    .main {
+        grid-area: main;
+    }
+
+

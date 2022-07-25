@@ -1,0 +1,20 @@
+.header {
+    grid-area: header;
+    ul{
+        margin: 0 auto;
+        li{
+            margin-right: 1rem;
+            
+            a{
+            text-decoration: none;
+            color:black;
+        }}
+    }
+
+    
+    
+}
+
+#marginLeft{
+    margin-left: 1rem;
+}
