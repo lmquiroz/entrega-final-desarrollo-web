@@ -9,6 +9,10 @@
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: stretch;
+        
+        label{
+            @include parrafo-padding ($tipografiaEbGar, 1rem);
+        }
 
         div {
             display: flex;
@@ -25,4 +29,11 @@
     align-items: stretch;
         }
     }
+}
+
+@media screen and (max-width: 251px){
+    form{
+        max-width: 90px;
+    }
+
 }

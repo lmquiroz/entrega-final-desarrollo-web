@@ -10,3 +10,10 @@ transition:all .5s ease-in-out;
         }
     }
 }
+@media screen and (max-width: 315px){
+    .fotos{
+        img{
+            max-width: 100px;
+        }
+    }
+}

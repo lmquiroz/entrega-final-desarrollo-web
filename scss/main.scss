@@ -3,6 +3,9 @@
     padding: 0;
 }
 /* variables */
+@import './variables/tipografia';
+@import './variables/extend';
+@import './variables/mixin';
 
 /* componentes */
 @import './componentes/body';

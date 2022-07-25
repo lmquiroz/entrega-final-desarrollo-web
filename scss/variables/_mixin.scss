@@ -1,0 +1,5 @@
+@mixin parrafo-padding ($parrafo, $margintop){
+    font-family: $parrafo;
+    margin-top: $margintop;
+}
+    

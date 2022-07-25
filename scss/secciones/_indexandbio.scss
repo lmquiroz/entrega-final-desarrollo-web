@@ -18,16 +18,22 @@
         padding: 3rem;
         align-items: center;
         color: white;
+        
         h1{
             margin: 2rem;
+            font-family: $tipografiaEbGar;
         }
         img{
             margin: 2rem;
         }
 
         p{
-            max-width: 800px;
-            margin: 2rem;
+            
+            @extend %estiloParrafo;
+            
+            span{
+                font-weight: bold;
+            }
         }
     }
 
