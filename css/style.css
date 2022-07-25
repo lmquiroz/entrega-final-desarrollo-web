@@ -5,7 +5,7 @@
 /* variables */
 /* componentes */
 body {
-  background-image: linear-gradient(0deg, rgba(20, 1, 10, 0.9) 0%, rgba(80, 0, 38, 0.9) 50%, rgba(0, 0, 0, 0.9) 100%), url(../../imagenes/patronv2.png);
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%), url(../../imagenes/patronv2.png);
   background-repeat: round; }
 
 .container {
@@ -23,7 +23,7 @@ body {
       margin-right: 1rem; }
       .header ul li a {
         text-decoration: none;
-        color: black; }
+        color: white; }
 
 #marginLeft {
   margin-left: 1rem; }
@@ -31,15 +31,19 @@ body {
 .aside {
   grid-area: aside;
   padding: 3rem; }
+  .aside .reproductor {
+    margin: 0 auto;
+    max-width: 600px; }
 
 #logoFooter {
-  height: 50px; }
+  max-width: 60px; }
 
 .footer {
   grid-area: footer;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  background-color: black; }
   .footer ul {
     list-style: none;
     display: flex; }
@@ -51,7 +55,7 @@ body {
 
 /* paginas */
 #logoPrincipal {
-  max-height: 200px; }
+  max-height: 120px; }
 
 #imgBio {
   height: 400px; }
@@ -64,7 +68,8 @@ body {
   flex-direction: column;
   flex-wrap: nowrap;
   padding: 3rem;
-  align-items: center; }
+  align-items: center;
+  color: white; }
   .contenedorMain h1 {
     margin: 2rem; }
   .contenedorMain img {
@@ -75,3 +80,13 @@ body {
 
 .main {
   grid-area: main; }
+
+.discos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .discos p {
+    max-width: 200px;
+    text-align: center; }
+  .discos img {
+    max-height: 150px; }

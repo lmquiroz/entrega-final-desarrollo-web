@@ -1,0 +1,14 @@
+.discos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    p{
+        max-width: 200px;
+        text-align: center;
+    }
+
+    img {
+        max-height: 150px;
+    }
+
+}

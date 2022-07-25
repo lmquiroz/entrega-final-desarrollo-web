@@ -1,6 +1,10 @@
 .aside {
     grid-area: aside;
     padding: 3rem;
-
+    .reproductor{
+        margin: 0 auto;
+        max-width: 600px;
+    }
 }
+
 
