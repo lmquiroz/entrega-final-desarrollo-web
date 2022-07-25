@@ -90,3 +90,35 @@ body {
     text-align: center; }
   .discos img {
     max-height: 150px; }
+
+.fotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+  .fotos img {
+    max-height: 150px; }
+    .fotos img:hover {
+      filter: invert(100%);
+      transition: all .5s ease-in-out; }
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center; }
+  .contacto form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch; }
+    .contacto form div {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center; }
+    .contacto form .botones {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: stretch; }

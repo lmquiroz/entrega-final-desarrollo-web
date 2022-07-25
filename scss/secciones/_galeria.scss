@@ -1,0 +1,12 @@
+.fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    img{
+        max-height: 150px;
+        &:hover{
+            filter: invert(100%);
+transition:all .5s ease-in-out;
+        }
+    }
+}
